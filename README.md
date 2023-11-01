@@ -9,13 +9,13 @@ Defender Bot is a Reddit bot designed to engage in debates with Reddit users. It
 
 ## Musical Dominoes
 
-![Musical Dominoes screenshot](https://github.com/Franckltung/collection/assets/58312008/c2f3a9aa-9c76-490a-90d6-56fb3249c190)
+![Musical Dominoes screenshot](https://github.com/Franckltung/collection/assets/58312008/24e4d9f3-da0d-4c8a-b4b8-8631ef019695)
 
 A Simple domino game with a musical twist. Designed to educate and train users how to understand and compare musical note and rest values. The program utilizes the SDL2 library for graphics and sound. It supports zooming and handles various game events, such as player victories and blocked moves. The architecture includes systems for input, rendering, sound, and game logic.
 - Built with SDL2 and EnTT, a modern, high performance entity-component-system library.
 
 ## Parallel Boids
-![Parallel Boids screenshot](https://github.com/Franckltung/collection/assets/58312008/93a97593-e7e7-4c14-94e5-0fb471b93bf4)
+![Parallel Boids screenshot](https://github.com/Franckltung/collection/assets/58312008/5f6996ab-286c-4baa-b6af-7636437e0424)
 
 A parallel [Boid](https://en.wikipedia.org/wiki/Boids) simulator utilizing Intel Threading Building Blocks Flow Graphs to achieve parallel performance gains. The Boids follow 3 major rules:
 - Separation
