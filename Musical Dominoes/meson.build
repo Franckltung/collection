@@ -1,0 +1,6 @@
+project('Dominoes', 'cpp')
+SDL2dep = dependency('sdl2')
+SDL2_image = dependency('SDL2_image')
+SDL2_ttf = dependency('SDL2_ttf')
+SDL2_mixer = dependency('SDL2_mixer')
+e = executable('Musical Dominoes', ['main.cpp', 'renderSystem.cpp', 'position.cpp', 'angle.cpp', 'cameraSystem.cpp', 'entityFactory.cpp', 'texture.cpp', 'textureLoadingSystem.cpp', 'utility.cpp', 'inputSystem.cpp', 'dominoSystem.cpp', 'dominoBoard.cpp', 'rotationSystem.cpp', 'player.cpp', 'playerSystem.cpp', 'rotationVelocity.cpp', 'guiSystem.cpp', 'buttonSystem.cpp', 'soundSystem.cpp', 'soundLoadingSystem.cpp', 'timerSystem.cpp', 'boneYard.cpp'], dependencies : [SDL2dep, SDL2_image, SDL2_ttf, SDL2_mixer])

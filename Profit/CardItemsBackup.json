@@ -1,0 +1,452 @@
+{
+	"CardItemPairs": [
+  		 {
+   		 "Card": "A Dab of Ink",
+   		 "Item": "The Poet's Pen",
+   		 "ItemType": "",
+  		  "Stack": 9,
+  		  "Corrupted": 0
+ 		 },
+ 		 {
+ 		   "Card": "A Mother's Parting Gift",
+  		  "Item": "Fertile Mind",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Anarchy's Price",
+  		  "Item": "Voltaxic Rift",
+  		  "ItemType": "",
+ 		   "Stack": 13,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "Audacity",
+  		  "Item": "Doryani's Fist",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "Dark Temptation",
+  		  "Item": "Obliteration",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Death",
+  		  "Item": "Mon'tregul's Grasp",
+  		  "ItemType": "",
+ 		   "Stack": 4,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Echoes of Love",
+  		  "Item": "Fidelitas' Spike",
+  		  "ItemType": "",
+ 		   "Stack": 3,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "Forbidden Power",
+  		  "Item": "Balefire",
+  		  "ItemType": "",
+ 		   "Stack": 4,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "Humility",
+  		  "Item": "Tabula Rasa",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Might is Right",
+  		  "Item": "Trypanon",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Pride Before the Fall",
+  		  "Item": "Kaom's Heart",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "Rats",
+  		  "Item": "Rat's Nest",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Army of Blood",
+  		  "Item": "Bloodbond",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Beast",
+  		  "Item": "Belly of the Beast",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Betrayal",
+  		  "Item": "Maligaro's Virtuosity",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Blazing Fire",
+  		  "Item": "Chin Sol",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Coming Storm",
+  		  "Item": "Lightning Coil",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Conduit",
+  		  "Item": "Doryani's Fist",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Darkest Dream",
+  		  "Item": "Severed in Sleep",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Deceiver",
+  		  "Item": "Belt of the Deceiver",
+  		  "ItemType": "",
+ 		   "Stack": 4,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Deep Ones",
+  		  "Item": "Tidebreaker",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Demoness",
+  		  "Item": "Death's Hand",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Endless Darkness",
+  		  "Item": "Voidforge",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Fathomless Depths",
+  		  "Item": "Lightpoacher",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Feast",
+  		  "Item": "Romira's Banquet",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Fletcher",
+  		  "Item": "Drillneck",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Formless Sea",
+  		  "Item": "Varunastra",
+  		  "ItemType": "",
+ 		   "Stack": 7,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Forsaken",
+  		  "Item": "Umbilicus Immortalis",
+  		  "ItemType": "",
+ 		   "Stack": 7,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Harvester",
+  		  "Item": "The Harvest",
+  		  "ItemType": "",
+ 		   "Stack": 11,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Hermit",
+  		  "Item": "Lifesprig",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Incantation",
+  		  "Item": "The Whispering Ice",
+  		  "ItemType": "",
+ 		   "Stack": 4,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Insatiable",
+  		  "Item": "The Harvest",
+  		  "ItemType": "",
+ 		   "Stack": 3,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The King's Heart",
+  		  "Item": "Kaom's Heart",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Last One Standing",
+  		  "Item": "Atziri's Disfavour",
+  		  "ItemType": "",
+ 		   "Stack": 10,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Lich",
+  		  "Item": "Midnight Bargain",
+  		  "ItemType": "",
+ 		   "Stack": 12,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Lunaris Priestess",
+  		  "Item": "Sire of Shards",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Master",
+  		  "Item": "Bisco's Collar",
+  		  "ItemType": "",
+ 		   "Stack": 4,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Oath",
+  		  "Item": "Death's Oath",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Offering",
+  		  "Item": "Shavronne's Wrappings",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The One With All",
+  		  "Item": "Le Heup of All",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Pack Leader",
+  		  "Item": "Alpha's Howl",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Pact",
+  		  "Item": "Pledge of Hands",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Poet",
+  		  "Item": "Blood of Corruption",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Polymath",
+  		  "Item": "Astramentis",
+  		  "ItemType": "",
+ 		   "Stack": 3,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Price of Loyalty",
+  		  "Item": "Skin of the Loyal",
+  		  "ItemType": "",
+ 		   "Stack": 4,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Queen",
+  		  "Item": "Atziri's Acuity",
+  		  "ItemType": "",
+ 		   "Stack": 16,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Risk",
+  		  "Item": "Ventor's Gamble",
+  		  "ItemType": "",
+ 		   "Stack": 3,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Ruthless Ceinture",
+  		  "Item": "Meginord's Girdle",
+  		  "ItemType": "",
+ 		   "Stack": 7,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Scarred Meadow",
+  		  "Item": "Wake of Destruction",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Scavenger",
+  		  "Item": "Carcass Jack",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Siren",
+  		  "Item": "The Whispering Ice",
+  		  "ItemType": "",
+ 		   "Stack": 7,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Sun",
+  		  "Item": "Rise of the Phoenix",
+  		  "ItemType": "",
+ 		   "Stack": 7,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Sword King's Salute",
+  		  "Item": "Daresso's Salute",
+  		  "ItemType": "",
+ 		   "Stack": 7,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Thaumaturgist",
+  		  "Item": "Shavronne's Revelation",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Throne",
+  		  "Item": "Kaom's Roots",
+  		  "ItemType": "",
+ 		   "Stack": 2,
+ 		   "Corrupted": 1
+  		 },
+  		 {
+ 		   "Card": "The Visionary",
+  		  "Item": "Lioneye's Vision",
+  		  "ItemType": "",
+ 		   "Stack": 6,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Watcher",
+  		  "Item": "Crown of Eyes",
+  		  "ItemType": "",
+ 		   "Stack": 12,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Wind",
+  		  "Item": "Windripper",
+  		  "ItemType": "",
+ 		   "Stack": 7,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Witch",
+  		  "Item": "Kiara's Determination",
+  		  "ItemType": "",
+ 		   "Stack": 8,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "The Wolf's Shadow",
+  		  "Item": "Hyaon's Fury",
+  		  "ItemType": "",
+ 		   "Stack": 3,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Thirst for Knowledge",
+  		  "Item": "Gluttony",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Thunderous Skies",
+  		  "Item": "Storm Cloud",
+  		  "ItemType": "",
+ 		   "Stack": 5,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Tranquillity",
+  		  "Item": "Voltaxic Rift",
+  		  "ItemType": "",
+ 		   "Stack": 7,
+ 		   "Corrupted": 0
+  		 },
+  		 {
+ 		   "Card": "Vanity",
+  		  "Item": "Tabula Rasa",
+  		  "ItemType": "",
+ 		   "Stack": 9,
+ 		   "Corrupted": 1
+  		 }
+	]
+}

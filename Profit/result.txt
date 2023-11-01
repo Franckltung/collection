@@ -1,0 +1,193 @@
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Polymath                  |Astramentis                                                 |6.166667                      
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Last One Standing         |Atziri's Disfavour                                          |1.500000                      
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Poet                      |Blood of Corruption(Corrupted)                              |0.888889                      
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Endless Darkness          |Voidforge                                                   |0.833333                      
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Darkest Dream             |Severed in Sleep(Corrupted)                                 |0.000000                      
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Lich                      |Midnight Bargain(Corrupted)                                 |0.000000                      
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Wolf's Shadow             |Hyaon's Fury                                                |-0.500000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Scavenger                 |Carcass Jack                                                |-0.625000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Thaumaturgist             |Shavronne's Revelation(Corrupted)                           |-0.750000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Audacity                      |Doryani's Fist(Corrupted)                                   |-0.800000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Offering                  |Shavronne's Wrappings                                       |-0.937500                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Death                         |Mon'tregul's Grasp                                          |-1.125000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Incantation               |The Whispering Ice                                          |-1.125000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Thunderous Skies              |Storm Cloud                                                 |-1.200000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+A Mother's Parting Gift       |Fertile Mind                                                |-1.250000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Hermit                    |Lifesprig                                                   |-1.333333                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Deceiver                  |Belt of the Deceiver(Corrupted)                             |-1.625000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Anarchy's Price               |Voltaxic Rift(Corrupted)                                    |-1.692308                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Betrayal                  |Maligaro's Virtuosity                                       |-1.777778                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Formless Sea              |Varunastra                                                  |-1.785714                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+A Dab of Ink                  |The Poet's Pen                                              |-2.222222                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Beast                     |Belly of the Beast                                          |-2.250000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Lunaris Priestess         |Sire of Shards                                              |-2.700000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Dark Temptation               |Obliteration                                                |-2.700000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Pact                      |Pledge of Hands                                             |-3.055556                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The King's Heart              |Kaom's Heart                                                |-3.125000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Humility                      |Tabula Rasa                                                 |-3.333333                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Rats                          |Rat's Nest                                                  |-3.625000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Tranquillity                  |Voltaxic Rift                                               |-5.428571                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Ruthless Ceinture         |Meginord's Girdle(Corrupted)                                |-5.785714                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Scarred Meadow            |Wake of Destruction                                         |-5.833333                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Coming Storm              |Lightning Coil                                              |-6.812500                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Might is Right                |Trypanon                                                    |-6.888889                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Queen                     |Atziri's Acuity                                             |-7.625000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Conduit                   |Doryani's Fist                                              |-9.000000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Oath                      |Death's Oath                                                |-9.250000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Echoes of Love                |Fidelitas' Spike(Corrupted)                                 |-9.333333                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Harvester                 |The Harvest                                                 |-9.363636                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Army of Blood             |Bloodbond                                                   |-9.666667                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Demoness                  |Death's Hand                                                |-9.700000                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Witch                     |Kiara's Determination                                       |-9.812500                     
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The One With All              |Le Heup of All(Corrupted)                                   |-10.250000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Fletcher                  |Drillneck(Corrupted)                                        |-11.100000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Blazing Fire              |Chin Sol                                                    |-12.333333                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Wind                      |Windripper                                                  |-12.500000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Pack Leader               |Alpha's Howl                                                |-12.750000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Sword King's Salute       |Daresso's Salute                                            |-13.642857                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Forsaken                  |Umbilicus Immortalis                                        |-17.142857                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Master                    |Bisco's Collar                                              |-17.500000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Vanity                        |Tabula Rasa(Corrupted)                                      |-19.166667                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Fathomless Depths         |Lightpoacher                                                |-20.312500                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Pride Before the Fall         |Kaom's Heart(Corrupted)                                     |-21.187500                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Feast                     |Romira's Banquet(Corrupted)                                 |-24.600000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Visionary                 |Lioneye's Vision                                            |-24.750000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Thirst for Knowledge          |Gluttony                                                    |-27.200000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+Forbidden Power               |Balefire(Corrupted)                                         |-28.500000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Sun                       |Rise of the Phoenix                                         |-29.785714                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Deep Ones                 |Tidebreaker                                                 |-48.500000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Watcher                   |Crown of Eyes                                               |-49.916667                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Risk                      |Ventor's Gamble                                             |-50.000000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Throne                    |Kaom's Roots(Corrupted)                                     |-88.000000                    
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Siren                     |The Whispering Ice(Corrupted)                               |-137.857143                   
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Insatiable                |The Harvest(Corrupted)                                      |-155.000000                   
+---------------------------------------------------------------------------------------------------------------------------
+Card Name:                    |Item Name:                                                  |Profit in chaos(Per card):    
+The Price of Loyalty          |Skin of the Loyal(Corrupted)                                |-222.500000                   
+
