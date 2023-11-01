@@ -1,5 +1,5 @@
 # collection
-A collection of projects I've worked on.
+A collection of projects I've built.
 
 ## Defender Bot
 
@@ -29,3 +29,9 @@ A parallel [Boid](https://en.wikipedia.org/wiki/Boids) simulator utilizing Intel
   The boids attempt to fly towards the center of their flock.
 
 The program was built using TBB and SDL2, and has a control panel built using ImGui to allow for live adjustment of simulation parameters.
+
+## Profit
+
+A command-line tool to identify mispriced trading goods in the MMO "Path of Exile" by interfacing with its HTTP API with Boost Beast. Uses RapidJSON to parse responses from the API. The program will automatically fetch all trading pairs, sort them in a table by price difference, and store the results in a file.
+
+- This tools finds arbitrage opportunities by scanning for mispriced pairs of cards and items. Certain cards in the game can be converted into items once you have enough of them. If the total price of all the cards required to obtain an item is significantly higher or lower than the price of said item, this implies that one of the two is currently mispriced.
