@@ -1,4 +1,4 @@
-project('FlowTest', 'cpp')
+project('ParallelBoids', 'cpp')
 tbbdep = dependency('tbb')
 SDL2dep = dependency('sdl2')
 SDL2_ttfdep = dependency('SDL2_ttf')
@@ -10,5 +10,5 @@ imgui_sources = ['imgui/imgui_demo.cpp', 'imgui/imgui_draw.cpp', 'imgui/imgui_ta
 #add_project_link_arguments('-pg', language : 'cpp')
 add_project_arguments('-Ofast', '-march=native', language : 'cpp')
 
-e = executable('FlowTest', ['flowtest.cpp', 'boidProcessor.cpp', 'world.cpp', 'simpleRenderer.cpp', 'timer.cpp', 'imGuiSystem.cpp', imgui_sources], dependencies : [tbbdep, SDL2dep, SDL2_ttfdep, SDL2_imagedep], include_directories : imgui)
+e = executable('ParallelBoids', ['flowtest.cpp', 'boidProcessor.cpp', 'world.cpp', 'simpleRenderer.cpp', 'timer.cpp', 'imGuiSystem.cpp', imgui_sources], dependencies : [tbbdep, SDL2dep, SDL2_ttfdep, SDL2_imagedep], include_directories : imgui)
 test('testRun', e)

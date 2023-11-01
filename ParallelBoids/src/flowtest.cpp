@@ -44,7 +44,7 @@ int main (int argc, char* argv[]) {
 
 	// Set up screen
 	int virtualWindowWidth = guiState.newCellNum * guiState.newCellSize; // Scale based on size and number of cells
-	SimpleRenderer renderer("FlowTest", 640, 640, 640.0 / virtualWindowWidth);
+	SimpleRenderer renderer("Parallel Boids", 640, 640, 640.0 / virtualWindowWidth);
 
 	std::vector<RenderRect> renderShapes;
 	for (Boid* boid : boids) {
