@@ -1,11 +1,8 @@
 # collection
-A collection of projects I've built.
+A collection of projects I've worked on.
 
-## Defender Bot
-
-Defender Bot is a Reddit bot designed to engage in debates with Reddit users. It uses OpenAI's ChatGPT for generating responses. Managed using an SQLite database, The bot monitors its Reddit inbox, adds submissions to a "watchlist" for 3 days as requested, tracking token usage by user. It evaluates comments and decides whether they are argumentative or not. If so, it uses GPT-3 to generate a reply. The bot operates continuously and includes a logging system. The program has been containerized using Docker and hosted on the Google Cloud Platform.
-
-- Built with PRAW, tiktoken, SQLAlchemy, and the OpenAI API.
+## Navigating the Fiscal Frontier
+https://github.com/KarmenM18/FiscalFrontier
 
 ## Musical Dominoes
 
@@ -35,3 +32,9 @@ The program was built using TBB and SDL2, and has a control panel built using Im
 A command-line tool to identify mispriced trading goods in the MMO "Path of Exile" by interfacing with its HTTP API with Boost Beast. Uses RapidJSON to parse responses from the API. The program will automatically fetch all trading pairs, sort them in a table by price difference, and store the results in a file.
 
 - This tools finds arbitrage opportunities by scanning for mispriced pairs of cards and items. Certain cards in the game can be converted into items once you have enough of them. If the total price of all the cards required to obtain an item is significantly higher or lower than the price of said item, this implies that one of the two is currently mispriced.
+
+## Defender Bot
+
+Defender Bot is a Reddit bot designed to engage in debates with Reddit users. It uses OpenAI's ChatGPT for generating responses. Managed using an SQLite database, The bot monitors its Reddit inbox, adds submissions to a "watchlist" for 3 days as requested, tracking token usage by user. It evaluates comments and decides whether they are argumentative or not. If so, it uses GPT-3 to generate a reply. The bot operates continuously and includes a logging system. The program has been containerized using Docker and hosted on the Google Cloud Platform.
+
+- Built with PRAW, tiktoken, SQLAlchemy, and the OpenAI API.
