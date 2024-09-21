@@ -2,6 +2,7 @@
 // 2023-Oct
 // TODO: Fine grained parallism. We should try to pass each individual boid from node to node and see if
 // it runs faster
+// Try to make them move towards or away from the mouse.
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -17,10 +18,34 @@
 #include "imGuiSystem.hpp"
 #include "imgui/imgui_impl_sdl.h"
 
+// Move nearby boids towards or away from the mouse position
+void mouseMovement(World& world, GUIState& guiState, int direction) {
+	int x, y;
+	SDL_GetMouseState(&x, &y);
+	float adjust_x = x * world.getColNum() * world.getCellSize() / 640.0;
+	float adjust_y = y * world.getRowNum() * world.getCellSize() / 640.0;
+	// std::cout << "Adjusted x: " << adjust_x << "\tAdjusted y: " << adjust_y << "\n";
+
+	// Get nearby boids
+	Cell* currCell = world.getCell(adjust_x / world.getCellSize(), adjust_y / world.getCellSize());
+	std::vector<Boid*> boids = world.getNearBoids(currCell->row, currCell->col, adjust_x, adjust_y);
+	for (Boid* boid : boids) {
+		float distanceX = adjust_x - boid->x;
+		float distanceY = adjust_y - boid->y;
+
+		// Execute impuse, based on direction
+		boid->vec += Vector(direction, FastArcTan2(distanceY, distanceX) + M_PI);
+	}
+}
+
 int main (int argc, char* argv[]) {
 	bool doParallel = false;
 	if (argc > 1) {
 		if (strcmp(argv[1], "--doParallel") == 0) doParallel = true;
+		else {
+			std::cout << "Error; invalid argument.\n";
+			return -1;
+		}
 	}
 
 	std::mt19937_64 seedy(std::random_device{}());
@@ -119,13 +144,34 @@ int main (int argc, char* argv[]) {
 	int maxEpochNumber = -1; // maximum number of epochs; if less than 0 it will run forever
 	timerSystem.startTimer("Total Timer");
 
+	int mouseVecSign = 1; // Determines if boids will move towards or away from mouse
+	bool mousePressed = false; // Make mouse clicks a toggle, not constantly activating
+
 	bool quit = false;
 	SDL_Event e;
 	while (!quit && epochNumber != maxEpochNumber) {
 		while (SDL_PollEvent(&e) != 0) {
 			if (e.type == SDL_QUIT) quit = true;
 			else if (e.type == SDL_WINDOWEVENT && e.window.event == SDL_WINDOWEVENT_CLOSE) quit = true;
-			ImGui_ImplSDL2_ProcessEvent(&e); // Process GUI events
+
+			else if (e.type == SDL_MOUSEBUTTONDOWN && !mousePressed) {
+				if (e.button.button == SDL_BUTTON_LEFT) {
+					mouseVecSign = -mouseVecSign;
+					mousePressed = false;
+				}
+			}
+			else if (e.type == SDL_MOUSEBUTTONUP) {
+				if (e.button.button == SDL_BUTTON_LEFT) mousePressed = false;
+			}
+
+			// Only accept input to the ImGui window if the main window is NOT in focus
+			SDL_Window* active_window = SDL_GetKeyboardFocus();
+			if (active_window != nullptr) {
+				int active_window_id = SDL_GetWindowID(active_window);
+				if (SDL_GetWindowID(renderer.getWindow()) != active_window_id) {
+					ImGui_ImplSDL2_ProcessEvent(&e); // Process GUI events
+				}
+			}
 		}
 
 		world.setVisionRange(guiState.boidVisionRange);
@@ -154,6 +200,7 @@ int main (int argc, char* argv[]) {
 		if (doParallel == true) {
 			timerSystem.resetTimer("Parallel Timer");
 
+			mouseMovement(world, guiState, mouseVecSign);
 			startNode.try_put(tbb::flow::continue_msg());
 			graph.wait_for_all();
 
@@ -181,6 +228,8 @@ int main (int argc, char* argv[]) {
 		timerSystem.stopTimer("Populate Serial");
 
 		timerSystem.resetTimer("Rules Serial");
+
+		mouseMovement(world, guiState, mouseVecSign);
 		// Apply rules
 		boidProcessor.process(boids);
 		timerSystem.stopTimer("Rules Serial");

@@ -88,7 +88,7 @@ void BoidProcessor::processSeparation(std::vector<Boid*>& boids) {
 			float distanceX = neighbour->x - boid->x;
 			float distanceY = neighbour->y - boid->y;
 			if (std::pow(distanceX, 2) + std::pow(distanceY, 2) < std::pow(guiState.boidProtectionRange, 2)) {
-				boid->vec += Vector(guiState.impulseSeparationStr, std::atan2(distanceY, distanceX) + M_PI);
+				boid->vec += Vector(guiState.impulseSeparationStr, FastArcTan2(distanceY, distanceX) + M_PI);
 			}
 		}
 	}
@@ -104,7 +104,7 @@ void BoidProcessor::processSeparationParallel(std::vector<Boid*>& boids) {
 				float distanceX = neighbour->x - boids[i]->x;
 				float distanceY = neighbour->y - boids[i]->y;
 				if (std::pow(distanceX, 2) + std::pow(distanceY, 2) < std::pow(guiState.boidProtectionRange, 2)) {
-					boids[i]->vec += Vector(guiState.impulseSeparationStr, std::atan2(distanceY, distanceX) + M_PI);
+					boids[i]->vec += Vector(guiState.impulseSeparationStr, FastArcTan2(distanceY, distanceX) + M_PI);
 				}
 			}
 		}
@@ -159,7 +159,7 @@ void BoidProcessor::processCohesion(std::vector<Boid*>& boids) {
 		averageX /= neighbours.size();
 		averageY /= neighbours.size();
 
-		boid->vec += Vector(guiState.impulseCohesionStr, std::atan2(averageY - boid->y, averageX - boid->x));
+		boid->vec += Vector(guiState.impulseCohesionStr, FastArcTan2(averageY - boid->y, averageX - boid->x));
 	}
 }
 
@@ -178,7 +178,7 @@ void BoidProcessor::processCohesionParallel(std::vector<Boid*>& boids) {
 			averageX /= neighbours.size();
 			averageY /= neighbours.size();
 
-			boids[i]->vec += Vector(guiState.impulseCohesionStr, std::atan2(averageY - boids[i]->y, averageX - boids[i]->x));
+			boids[i]->vec += Vector(guiState.impulseCohesionStr, FastArcTan2(averageY - boids[i]->y, averageX - boids[i]->x));
 		}
 	});
 }

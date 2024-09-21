@@ -38,7 +38,7 @@ void ImGuiSystem::process() {
 	ImGui::SetNextWindowSize(viewport->Size);
 
 	if (ImGui::Begin("ControlPanel", 0, window_flags)) {
-		ImGui::SliderInt("Boids", &state.boidNumber, 0, 16384);
+		ImGui::SliderInt("Boids", &state.boidNumber, 0, 65536);
 		ImGui::SliderFloat("Boid Max Speed", &state.boidMaxSpeed, 0.0, 50.0);
 		ImGui::SliderFloat("Boid Min Speed", &state.boidMinSpeed, 0.0, 50.0);
 		ImGui::SliderFloat("Boid Vision Range", &state.boidVisionRange, 0.0, 128.0);

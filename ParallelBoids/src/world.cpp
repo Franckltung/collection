@@ -5,6 +5,7 @@
 std::vector<Boid*> World::getNearBoids(int row, int col, float x, float y) {
 	// Look at all cells in 3x3 grid around boid and add them to list
 	std::vector<Boid*> nearbys;
+	nearbys.reserve(32);
 
 	for (int i = row - 1; i < row + 2; i++) {
 		if (i < 0 || i > rowMax) continue;

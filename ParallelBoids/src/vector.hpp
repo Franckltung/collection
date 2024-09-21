@@ -1,8 +1,10 @@
 // Franck Limtung
 // Simple 2d vector class which supports adding vectors together
-#include <cmath>
 #ifndef VECTOR_HPP
 #define VECTOR_HPP
+
+#include <cmath>
+#include "fastTrig.hpp"
 
 struct Vector
 {
@@ -22,7 +24,7 @@ struct Vector
 		float newY = firstY + secondY;
 
 		this->magnitude = std::sqrt(newX * newX + newY * newY);
-		this->direction = std::atan2(newY, newX);
+		this->direction = FastArcTan2(newY, newX);
 		return *this;
 	}
 };
